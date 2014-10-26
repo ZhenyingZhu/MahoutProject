@@ -1,5 +1,5 @@
 MahoutProject
 =============
-Item-Based Recommender
-User-Based Recommender
-Evaluators
+Item-Based Recommender\n
+User-Based Recommender\n
+Evaluators\n
