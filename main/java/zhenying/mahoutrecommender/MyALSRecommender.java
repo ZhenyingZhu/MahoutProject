@@ -16,7 +16,7 @@ import org.apache.mahout.cf.taste.recommender.RecommendedItem;
 public class MyALSRecommender {
 
 	public static void main(String[] args) throws IOException, TasteException {
-		String fileName = "movie_rating"; 
+		String fileName = "music_rating"; 
 		int userId = 2; 
 		int recommendAmount = 300;  
 		
