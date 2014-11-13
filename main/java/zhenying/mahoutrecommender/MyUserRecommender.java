@@ -21,10 +21,10 @@ import org.apache.mahout.cf.taste.similarity.UserSimilarity;
 public class MyUserRecommender {
 
 	public static void main(String[] args) throws IOException, TasteException {
-		String fileName = "music_rating";
+		String fileName = "movies";
 		double simDegree = 0.1; 
 		int userId = 2; 
-		int recommendAmount = 300; 
+		int recommendAmount = 10; 
 		
     	DataModel model = new FileDataModel(new File("data/" + fileName + ".csv"));
     	UserSimilarity similarity = new PearsonCorrelationSimilarity(model); 

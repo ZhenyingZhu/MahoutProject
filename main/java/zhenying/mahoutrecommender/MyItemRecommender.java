@@ -19,9 +19,9 @@ import org.apache.mahout.cf.taste.similarity.ItemSimilarity;
 public class MyItemRecommender {
 
 	public static void main(String[] args) throws IOException, TasteException {
-		String fileName = "movie_rating"; 
+		String fileName = "movies"; 
 		int userId = 2; 
-		int recommendAmount = 300;  
+		int recommendAmount = 10;  
 		
 		DataModel model = new FileDataModel(new File("data/" + fileName + ".csv")); 
 		ItemSimilarity similarity = new PearsonCorrelationSimilarity(model); 

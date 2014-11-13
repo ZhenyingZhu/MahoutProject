@@ -10,6 +10,7 @@ public class ItemType implements Comparable<ItemType> {
 	}
 
 	public int compareTo(ItemType otherItem) {
+		/*
 		if (this.itemId == otherItem.itemId) {
 			return 0;
 		} else if (this.itemId > otherItem.itemId) {
@@ -17,7 +18,14 @@ public class ItemType implements Comparable<ItemType> {
 		} else {
 			return -1; 
 		}
-		
+		*/
+		if (this.itemRating == otherItem.itemRating) {
+			return 0; 
+		} else if (this.itemRating > otherItem.itemRating) {
+			return -1; 
+		} else {
+			return 1; 
+		}
 	}
 	
 	public String toString() {
